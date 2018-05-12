@@ -7,11 +7,11 @@ import strategy.EstrategiaA;
 import strategy.EstrategiaB;
 
 
-public class testStrategy {
+public class TestStrategy {
 		
 	
 	@Test
-	public void testEstrategia() {
+	public void estrategiaTest() {
 		
 		
 		Contexto contexto = new Contexto ();
@@ -21,7 +21,7 @@ public class testStrategy {
 		contexto.setEstrategia(estrategiaA);
 		System.out.println(contexto.ejecutarAlgoritmo());
 		contexto.setEstrategia(estrategiaB);
-		System.out.println(contexto.ejecutarAlgoritmo());	
+		System.out.println(contexto.ejecutarAlgoritmo());
 	}
 	
 	
